@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+    font-size: 70px;
+}
+p{
+    background-color: rgb(86, 86, 255);
+    color: rgb(63, 63, 63);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+* ins{
+    background-color: rgb(107, 107, 255);
+    font-size: 15px;
+}
+ul,li{
+    background-color: tomato;
+    font-size: 25px;
+    font-style: oblique;
+}
+#wb{
+    color: cadetblue;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:oblique;
+}
