@@ -1,16 +1,4 @@
-p,h1{
-    background-color: aquamarine;
-    color: coral;
-    text-align: center;
-}
-p{
+.container{
+    background-color: brown;
     color: rgb(74, 74, 74);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.p2{
-    font-size: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-#p1{
-    text-align: end;
 }
