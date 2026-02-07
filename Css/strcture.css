@@ -1,4 +1,16 @@
-#navbar{
+header{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    /* height: 30px;  */
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
     background-color: rgb(0, 0, 142);
     display: flex;
     justify-content: space-between;
@@ -33,12 +45,24 @@ a:hover{
     color: white;
     
 }
-*{
-    margin: 0px;
-    padding: 0px;
+main{
+    margin: 50px;
 }
+article p{
+    color: white;
+    background-color: darkblue;
+    padding:  40px;
+    text-align: center;
 
-#footer{
+}
+section p{
+    color: white;
+    margin-top: 40px;
+    background-color: darkblue;
+    padding:  40px;
+    text-align: center;
+}
+footer{
     background-color: darkblue;
     position:fixed ;
     width:100% ;
