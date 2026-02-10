@@ -1,0 +1,16 @@
+.maingrid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: brown;
+    grid-gap: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.griditem{
+    background-color: rgb(83, 83, 83);
+    color: white;
+    padding: 40px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
