@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(0, 29, 102);
+}
+#navbar{
+    background-color: rgb(255, 111, 0);
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-area: nav;
+      
+     
+    
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin-right: 30%;    
+    gap: 60px;
+}
+#logo img{
+    border-radius: 50px;
+    margin-left: 20px;
+}
+a{
+    background-color: white;
+    color: rgb(255, 111, 0);
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-color: rgb(255, 111, 0);
+}
+a:hover{
+    background-color: rgb(0, 29, 102);
+    color: rgb(255, 111, 0);
+}
+#main{
+    background-color: rgb(255, 152, 84);
+    height: 900px;
+    width: 100%;
+    grid-area: main;
+    display:grid;
+    grid-template-areas: 'image p'
+                         'image p'
+                         'image p' ;
+    
+}
+#p{
+    margin-top: 100px;
+    font-size: 18px;
+    color: rgb(0, 29, 102);
+
+}
+#image img{
+    border-radius: 100px;
+    border: 3px solid rgb(196, 85, 0);
+    margin-top: 50px;
+}
+#image{
+margin-left: 30px;
+}
+
+
+
+
+#menu{
+    background-color: rgb(196, 85, 0);
+    height: 100%;
+    width:100% ;
+    grid-area: menu;
+    
+}
+#menu button{
+    border-radius: 20px;
+    width: 200px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    display: block;
+    margin-left:27%;
+    color: rgb(0, 29, 102);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#footer{
+    background-color: rgb(255, 111, 0);
+     /* position: fixed;   */
+     /* bottom: 0px;   */
+    height: 220px;
+    width: 100%;
+    padding: 5px;
+    grid-area: footer;
+    
+}
+#list ul{
+    display:inline;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 20px;
+}
+i{
+    margin-right: 5px;
+    
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#maingrid{
+    display: grid;
+    grid-template-areas: 'nav nav nav'
+                         'menu main main'
+                         'menu footer footer';
+}

@@ -1,0 +1,15 @@
+#maingrid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.griditem{
+    background-color: white;
+    text-align: center;
+    margin:40px;
+    padding: 50px;
+    border: 3px solid black;
+    border-radius: 5%;
+}
+.imggrid{
+    
+}

@@ -1,0 +1,36 @@
+#navbar{
+    background-color: green;
+    height: 120px;
+    width: 100%;
+    grid-area: nav;
+}
+#main{
+    background-color: rgb(101, 171, 101);
+    height: 900px;
+    width: 100%;
+    grid-area: main;
+
+}
+#menu{
+    background-color: rgb(48, 69, 48);
+    height: 100%;
+    width:100% ;
+    grid-area: menu;
+}
+#footer{
+    background-color: rgb(0, 161, 0);
+    height: 220px;
+    width: 100%;
+    grid-area: footer;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#maingrid{
+    display: grid;
+    grid-template-areas: 'nav nav nav'
+                         'menu main main'
+                         'menu footer footer';
+}
