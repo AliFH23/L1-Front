@@ -24,9 +24,9 @@ ul{
     margin-left: 20px;
 }
 a{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     color: rgb(255, 111, 0);
-    border: 1px solid black;
+    border: 1px solid rgb(0, 29, 102);
     text-decoration: none;
     padding: 10px;
     border-radius: 30px;
@@ -48,10 +48,13 @@ a:hover{
     grid-template-areas: 'image p'
                          'image p'
                          'image p' ;
+
     
 }
 #p{
-    margin-top: 100px;
+    margin-top: 120px;
+    margin-right: 50px;
+    padding-right:200px ;
     font-size: 18px;
     color: rgb(0, 29, 102);
 
@@ -62,8 +65,10 @@ a:hover{
     margin-top: 50px;
 }
 #image{
-margin-left: 30px;
+    margin-left: 30px;
+
 }
+
 
 
 
@@ -73,6 +78,7 @@ margin-left: 30px;
     height: 100%;
     width:100% ;
     grid-area: menu;
+    
     
 }
 #menu button{
